@@ -22,20 +22,28 @@ We can modify the custom parameters in **`setting_util.py`**<br>
 
 > ### Build Model
 In this project we can use **`Training_Image_Built.py`** to generate the noise image and it will use origin image in folder(**`img`**) to create noise image into folder(**`noise_img`**) and create noise image map into folder(**`noise_map_img`**) you can customize the file location<br>
-> `python Training_Image_Built.py`<br>
+> ```
+> python Training_Image_Built.py
+>  ```
 
 Then it can use the **`Load_Data.py`** to generate the noise image feature model<br>
-> `python Load_Data.py`<br>
+> ```
+> python Load_Data.py
+> ```
 
 and it will create model **`data_model.pkl`** which store image feature and **`data_map_model.pkl`** which store noise map in the folder(**`model`**) and you can customize the file location in **`setting_util.py`**
 > ### Training Model
 we can use the **`Training.py`** to training noise detector model, it depends on **`data_model.pkl`** and **`data_map_model.pkl`** to train
-> `python Training.py`<br>
+> ```
+> python Training.py
+> ```
 
 the train model will generated in the folder(**`model`**) as **`model.pkl`**
 > ### Test Model
 we can use **`Test_CGP.py`** to test de training model
-> `python Test_CGP.py`<br>
+> ```
+> python Test_CGP.py
+> ```
 
 
 
