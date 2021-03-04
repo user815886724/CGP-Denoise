@@ -17,7 +17,7 @@ We can modify the custom parameters in **`setting_util.py`**<br>
 > ```
 > git clone https://github.com/Happy-Algorithms-League/hal-cgp.git
 > cd test
-> python Test_CGP.py <br> 
+> python Test_CGP.py 
 > ```
 
 > ### Build Model
