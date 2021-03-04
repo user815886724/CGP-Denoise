@@ -12,5 +12,19 @@ You can also install individual extra requirements by specifying the package nam
 `pip install hal-cgp[torch]`<br>
 ## Basic usage
 For detailed documentation, please refer to https://happy-algorithms-league.github.io/hal-cgp/. Here we only provide a preview.<br>
-In this project we can use **`Training_Image_Built.py`** to generate the noise image and it will use origin image in folder **`img`** to create noise image into **`noise_img`**<br> 
-**`Training.py`** to training noise detector model
+We can modify the custom parameters in **`setting_util.py`**
+> ### Build Model
+In this project we can use **`Training_Image_Built.py`** to generate the noise image and it will use origin image in folder(**`img`**) to create noise image into folder(**`noise_img`**) and create noise image map into folder(**`noise_map_img`**) you can customize the file location<br>
+> `python Training_Image_Built.py`<br>
+
+Then it can use the **`Load_Data.py`** to generate the noise image feature model<br>
+> `python Load_Data.py`<br>
+
+and it will create model **`data_model.pkl`** which store image feature and **`data_map_model.pkl`** which store noise map in the folder(**`model`**) and you can customize the file location in **`setting_util.py`**
+> ### Training Model
+we can use the **`Training.py`** to training noise detector model, it depends on **`data_model.pkl`** and **`data_map_model.pkl`** to train
+> `python Training.py`<br>
+
+the train model will generated in the folder(**`model`**) as **`model.pkl`**
+> ### Test Model
+the test in **`Test_CGP.py`**
