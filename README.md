@@ -11,7 +11,6 @@ This library depends on some optional packages defined in extra_requirements.txt
 You can also install individual extra requirements by specifying the package name (without version number) in square brackets, e.g., to install the torch dependency:<br>
 `pip install hal-cgp[torch]`<br>
 ## Basic usage
-For detailed documentation, please refer to https://happy-algorithms-league.github.io/hal-cgp/. Here we only provide a preview.
-
-In these project
-
+For detailed documentation, please refer to https://happy-algorithms-league.github.io/hal-cgp/. Here we only provide a preview.<br>
+In this project we can use **`Training_Image_Built.py`** to generate the noise image and it will use origin image in folder **`img`** to create noise image into **`noise_img`**<br> 
+**`Training.py`** to training noise detector model
