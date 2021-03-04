@@ -1,0 +1,5 @@
+2021-03-04 13:23:03,165 - log_util.py[line:15] - INFO: 正在加载 model/best_model.pkl 模型中
+2021-03-04 13:23:03,233 - log_util.py[line:15] - INFO: 加载 model/best_model.pkl 模型成功
+2021-03-04 13:23:03,242 - log_util.py[line:15] - INFO: 开始第3张图像统计特征
+2021-03-04 13:23:03,243 - log_util.py[line:15] - INFO: 开始统计图片的信息
+2021-03-04 13:23:25,922 - log_util.py[line:15] - INFO: 完成统计特征信息
