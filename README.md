@@ -3,13 +3,13 @@
 
 ## Environmental 
  This project is developed on **Python3**<br>
-> Depend on hal-cgp: https://github.com/Happy-Algorithms-League/hal-cgp <br>
->You can install the latest relase via pip:<br>
->```pip install hal-cgp```<br>
->This library depends on some optional packages defined in extra_requirements.txt. These are necessary, for example, to compile an individual to a SymPy expression or a PyTorch class. You can install the extra requirements for full functionality of the library via:<br>
->```pip install hal-cgp```<br>
->You can also install individual extra requirements by specifying the package name (without version number) in square brackets, e.g., to install the torch dependency:<br>
->`pip install hal-cgp[torch]`<br>
+Depend on hal-cgp: https://github.com/Happy-Algorithms-League/hal-cgp <br>
+You can install the latest relase via pip:<br>
+```pip install hal-cgp```<br>
+This library depends on some optional packages defined in extra_requirements.txt. These are necessary, for example, to compile an individual to a SymPy expression or a PyTorch class. You can install the extra requirements for full functionality of the library via:<br>
+```pip install hal-cgp```<br>
+You can also install individual extra requirements by specifying the package name (without version number) in square brackets, e.g., to install the torch dependency:<br>
+`pip install hal-cgp[torch]`<br>
 ## Basic usage
 For detailed documentation, please refer to https://happy-algorithms-league.github.io/hal-cgp/. Here we only provide a preview.
 
