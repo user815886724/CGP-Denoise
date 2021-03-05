@@ -26,6 +26,7 @@ We can modify the custom parameters in **`setting_util.py`**<br>
 > python Test_CGP.py 
 > ```
 ![Image text](https://raw.githubusercontent.com/user815886724/CGP-Denoise/main/test/test_img/xray_noise.jpg)
+![Image text](https://raw.githubusercontent.com/user815886724/CGP-Denoise/main/denoise_img/denoise_xray.jpg)
 > ### Build Model
 In this project we can use **`Training_Image_Built.py`** to generate the noise image and it will use origin image in folder(**`img`**) to create noise image into folder(**`noise_img`**) and create noise image map into folder(**`noise_map_img`**) you can customize the file location<br>
 > ```
